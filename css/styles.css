@@ -1,0 +1,80 @@
+body {
+  background-color: #1b1c21;
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: arialis;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+h1 {
+  color: #feb200;
+}
+
+ul {
+  display: grid;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #2f3035;
+  height: 10vh;
+  align-items: center;
+}
+li:hover {
+  color: #feb200;
+  cursor: pointer;
+}
+footer {
+  display: flex;
+  background-color: #2f3035;
+  justify-content: center;
+  position: fixed;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 11vh;
+  gap: 5px;
+}
+.progress {
+  display: flex;
+  gap: 5px;
+}
+.player {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+#playPrev {
+  transform: rotateZ(180deg);
+}
+.imagePlaylist {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.musicAlbum {
+  width: 90px;
+  border-radius: 50%;
+  vertical-align: middle;
+  /* padding-right: 20px; */
+}
+#musicName {
+  padding-right: 4rem;
+  padding-left: 1rem;
+}
+#dancing {
+  padding-left: 2rem;
+  padding-top: 20vh;
+}
